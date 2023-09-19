@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Check Your Mental Health - Quiz</title>
+</head>
+<body>
+
+
+<% for( let index = 0; index < quizArr.length; index++ ) { %>
+
+
+<h2><%= quizArr[index].section %></h2>
+<ul>
+  <% for (let j = 0; j < quizArr[index].question.length; j++) { %>
+    <li><%= quizArr[index].question[j].q %></li>
+    <li><%= quizArr[index].question[j].q %></li>
+  
+  <% } %>
+</ul>
+<% } %>
+
+
+</body>
+</html>

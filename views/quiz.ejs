@@ -13,8 +13,10 @@
 <h2><%= quizArr[index].section %></h2>
 <ul>
   <% for (let j = 0; j < quizArr[index].question.length; j++) { %>
-    <li><%= quizArr[index].question[j].q %></li>
-    <li><%= quizArr[index].question[j].q %></li>
+    <li><%= quizArr[index].question[j].q1 %></li>
+    <% if ( quizArr[index].question[j].q2 != null) { %>
+      <li><%= quizArr[index].question[j].q2 %></li>
+    <% } %>
   
   <% } %>
 </ul>

@@ -1,0 +1,26 @@
+.slidebar-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.slidebar {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.slidebar h2 {
+  text-align: center;
+}
+
+.slidebar li {
+  border: 1px solid black;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.slidebar li:hover {
+  background-color: lightgray;
+}

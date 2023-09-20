@@ -1,0 +1,22 @@
+.fullbox{
+    width:;
+    padding:;
+    background-color: ;
+    border: ;
+    border-radius: ;
+    box-shadow: ;
+    text-align: ;
+    margin: ;
+
+}
+
+/* style for box image */
+.fullbox img {
+    max-width: ;
+    height: auto;
+}
+
+/* for box text */
+.fullbox p{
+font-size: ;
+}

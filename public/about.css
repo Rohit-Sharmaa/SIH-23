@@ -65,8 +65,8 @@ about-flex h4 , p {
 }
 
 .abt-btn:hover{
-color: #0000008a;
-background-color: #AEC5FF;
+   color: #0000008a;
+background-color: #F79BD3; 
 transform: scale(0.8);
 }
 
